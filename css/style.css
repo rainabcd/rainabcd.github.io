@@ -53,9 +53,9 @@ a {
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #f88379;
+  color: #ff3d2c;
   outline: none;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 p {
@@ -101,6 +101,19 @@ h1, h2, h3, h4, h5, h6, figure {
   left: 0;
   right: 0;
   background: rgba(248, 131, 121, 0.9);
+}
+.btn {
+  background-color: #fff;
+  border: none;
+  color: #f88379;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+  text-decoration: none;
+}
+.btn a:hover {
+  text-decoration: none;
+  color: black
 }
 #fh5co-header .display-t,
 .fh5co-cover .display-t {
@@ -212,13 +225,17 @@ h1, h2, h3, h4, h5, h6, figure {
   -ms-border-radius: 50%;
   border-radius: 50%;
 }
-#fh5co-header .display-tc .fh5co-social-icons li a,
-.fh5co-cover .display-tc .fh5co-social-icons li a {
+#fh5co-header .display-tc .fh5co-social-icons li a{
   color: #fff;
 }
-#fh5co-header .display-tc .fh5co-social-icons li a i,
-.fh5co-cover .display-tc .fh5co-social-icons li a i {
+#fh5co-header .display-tc .fh5co-social-icons li a:hover{
+  text-decoration: none;
+}
+#fh5co-header .display-tc .fh5co-social-icons li a i{
   font-size: 30px;
+}
+#fh5co-header .display-tc .fh5co-social-icons li a i:hover{
+  color: #000000;
 }
 
 #fh5co-features {
@@ -781,6 +798,9 @@ h1, h2, h3, h4, h5, h6, figure {
 .work:hover .desc span {
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
+}
+.work:hover{
+  text-decoration: none;
 }
 
 #fh5co-started {
