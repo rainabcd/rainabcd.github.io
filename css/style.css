@@ -47,7 +47,7 @@ body {
 }
 
 a {
-  color: #f88379;
+  color: #808080;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -243,10 +243,10 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #fh5co-features {
-  background: #f88379;
+  background: #fff;
 }
 #fh5co-features h2 {
-  color: #fff;
+  color: #f88379;
 }
 #fh5co-features .services-padding {
   padding: 7em 0;
@@ -265,10 +265,10 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-features .feature-left .icon {
   display: table;
   text-align: center;
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   margin: 0 auto;
-  background: #fff;
+  background: #f88379;
   margin-bottom: 20px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -276,20 +276,20 @@ h1, h2, h3, h4, h5, h6, figure {
   border-radius: 50%;
 }
 #fh5co-features .feature-left .icon i {
-  font-size: 50px;
+  font-size: 30px;
   display: table-cell;
   vertical-align: middle;
-  height: 100px;
-  color: #f88379 !important;
+  height: 80px;
+  color: #fff !important;
 }
 
 #fh5co-features .feature-left .feature-copy {
   width: 100%;
 }
 #fh5co-features .feature-left h3 {
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 400;
-  color: #fff;
+  color: #f88379;
 }
 #fh5co-features .feature-left p {
   font-size: 16px;
@@ -363,13 +363,13 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 40%;
   display: inline-block;
   float: left;
-  color: #000;
+  color: #fff;
   font-weight: bold;
 }
 .info li .second-block {
   width: 60%;
   display: inline-block;
-  color: rgba(0, 0, 0, 0.5);
+  color: #fff;
 }
 
 .fh5co-social-icons {
@@ -396,6 +396,15 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .fh5co-social-icons li a i {
   font-size: 20px;
+}
+#fh5co-about {
+  background: #f88379;
+}
+#fh5co-about h2{
+  color: #fff;
+}
+#fh5co-about p{
+  color: #fff;
 }
 #fh5co-about .fh5co-social-icons {
   margin: 0;
